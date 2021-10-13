@@ -1,33 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Authentication.ExtendedProtection;
 using MidiJack;
 using UnityEngine;
 
 public class MidiTest : MonoBehaviour
 {
-    const MidiChannel BLOB_X_CHANNEL = MidiChannel.Ch3;
-    const MidiChannel BLOB_Y_CHANNEL = MidiChannel.Ch4;
-    const MidiChannel BLOB_Z_CHANNEL = MidiChannel.Ch5;
-    const MidiChannel BLOB_W_CHANNEL = MidiChannel.Ch6;
-    const MidiChannel BLOB_H_CHANNEL = MidiChannel.Ch7;
 
-    public Renderer rend;
+    public BlobManager blobManager;
+    public GameObject objectToSpawn;
+    public float mapScale = 16;
+    
+    private GameObject[] objects = new GameObject[BlobManager.MAX_BLOBS];
     // Start is called before the first frame update
     void Start()
     {
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
+        for (int i = 0; i < BlobManager.MAX_BLOBS; i++)
+        {
+            objects[i] = Instantiate(objectToSpawn, Vector3.zero, Quaternion.identity);
+            objects[i].GetComponent<Renderer>().enabled = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        // MidiMaster.GetKey(MidiChannel.Ch1, <0-7> (blob id))
-        // MidiMaster.GetKnob(<blob parameter channel>,(blob id),0)
-        rend.enabled = MidiMaster.GetKey(MidiChannel.Ch1, 0) > 0;
-        float x = MidiMaster.GetKnob(BLOB_X_CHANNEL, 0,0) * 16;
-        float y = MidiMaster.GetKnob(BLOB_Y_CHANNEL, 0,0) * 16;
-        Vector3 newPos = new Vector3(x, 0, y);
-        transform.position = newPos;
+        for (int i = 0; i < BlobManager.MAX_BLOBS; i++)
+        {
+            Blob blob = blobManager.GetBlob(i);
+            objects[i].GetComponent<Renderer>().enabled = blob.active;
+            Vector3 newPos = new Vector3(blob.x * mapScale, 0, (1-blob.y) * mapScale);
+            objects[i].transform.position = newPos;
+        }
     }
 }
