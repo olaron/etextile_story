@@ -46,7 +46,10 @@ public class BlobManager : MonoBehaviour
     
     void Start()
     {
-        
+        for (int i = 0; i < MAX_BLOBS; i++)
+        {
+            blobs[i] = new Blob(false, 0,0,0,0,0);
+        }
     }
     
     void Update()

@@ -19,6 +19,7 @@ public class MidiTest : MonoBehaviour
         {
             objects[i] = Instantiate(objectToSpawn, Vector3.zero, Quaternion.identity);
             objects[i].GetComponent<Renderer>().enabled = false;
+            objects[i].GetComponent<Renderer>().material.color = Color.HSVToRGB((float)i/BlobManager.MAX_BLOBS,1,1);
         }
     }
 
@@ -31,6 +32,8 @@ public class MidiTest : MonoBehaviour
             objects[i].GetComponent<Renderer>().enabled = blob.active;
             Vector3 newPos = new Vector3(blob.x * mapScale, 0, (1-blob.y) * mapScale);
             objects[i].transform.position = newPos;
+            Vector3 newSize = new Vector3(0.1f + blob.w*10, 0.1f, 0.1f + blob.h*10);
+            objects[i].transform.localScale = newSize;
         }
     }
 }
