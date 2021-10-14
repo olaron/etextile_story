@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skybox
+  m_Shader: {fileID: -6465566751694194690, guid: c064209e7b1ca304fbea2a66c0c878ab, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_87cefc0e84df48af9e33d8f7ba413f41: 2.77
+    - Vector1_dfa14e152ead4579a4ee983a50e9a4a2: 6
+    m_Colors:
+    - Color_25d89ef3f5264121bc60ebe00bc3598b: {r: 0.29144186, g: 0.14653787, b: 0.34905657, a: 0}
+    - Color_2786411fdd0a4107b9f78b7e20639958: {r: 0.092426084, g: 0.14044997, b: 0.29245278, a: 0}
+    - Vector2_34d9643a355d473bad6d4249e096d204: {r: 8, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []
