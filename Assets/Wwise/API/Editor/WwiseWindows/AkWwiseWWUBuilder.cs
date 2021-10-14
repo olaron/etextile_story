@@ -67,7 +67,7 @@ public class AkWwiseWWUBuilder
 		{
 			if (string.IsNullOrEmpty(AkWwiseEditorSettings.Instance.WwiseProjectPath))
 			{
-				UnityEngine.Debug.LogError("WwiseUnity: Wwise project needed to populate from Work Units. Aborting.");
+				UnityEngine.Debug.Log("WwiseUnity: Wwise project needed to populate from Work Units. Aborting.");
 				return;
 			}
 
@@ -94,7 +94,7 @@ public class AkWwiseWWUBuilder
 		{
 			if (string.IsNullOrEmpty(AkWwiseEditorSettings.Instance.WwiseProjectPath))
 			{
-				UnityEngine.Debug.LogError("WwiseUnity: Wwise project needed to populate from Work Units. Aborting.");
+				UnityEngine.Debug.Log("WwiseUnity: Wwise project needed to populate from Work Units. Aborting.");
 				return false;
 			}
 
