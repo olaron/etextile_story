@@ -1,0 +1,402 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\rob\\Desktop\\code\\Projet Forénui\\",
+   "SourceFilesRoot": "C:\\Users\\rob\\Desktop\\code\\Projet Forénui\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\rob\\Desktop\\code\\etextile_story\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\rob\\Desktop\\code\\Projet Forénui\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3796139060",
+    "GUID": "{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}",
+    "Language": "SFX",
+    "Hash": "2130115880",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Project",
+    "ShortName": "Project",
+    "Path": "Project.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "542320736",
+      "Name": "play_dialogue_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\play_dialogue_1",
+      "GUID": "{549BCD67-3108-40C0-BE3B-D6EC78959D4C}",
+      "DurationType": "OneShot",
+      "DurationMin": "39.428562",
+      "DurationMax": "39.428562",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "514992432",
+        "Language": "SFX",
+        "ShortName": "dialogue_champignons[1].wav",
+        "Path": "SFX\\dialogue_champignons[1]_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "542320739",
+      "Name": "play_dialogue_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\play_dialogue_2",
+      "GUID": "{3756A5D8-3F32-4617-BB0C-852B7B134911}",
+      "DurationType": "OneShot",
+      "DurationMin": "33.357147",
+      "DurationMax": "33.357147",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "364968837",
+        "Language": "SFX",
+        "ShortName": "dialogue_dinosaure[2].wav",
+        "Path": "SFX\\dialogue_dinosaure[2]_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "542320738",
+      "Name": "play_dialogue_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\play_dialogue_3",
+      "GUID": "{85C91CD6-C26E-4672-8C12-B0A36CBFA6A1}",
+      "DurationType": "OneShot",
+      "DurationMin": "23.595230",
+      "DurationMax": "23.595230",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "813503510",
+        "Language": "SFX",
+        "ShortName": "dialogue_panneaudedirection[3].wav",
+        "Path": "SFX\\dialogue_panneaudedirection[3]_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "542320741",
+      "Name": "play_dialogue_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\play_dialogue_4",
+      "GUID": "{A0852A15-1202-45D8-AD86-144795847D35}",
+      "DurationType": "OneShot",
+      "DurationMin": "32.404770",
+      "DurationMax": "32.404770",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "435138732",
+        "Language": "SFX",
+        "ShortName": "dialogue_monstre[4].wav",
+        "Path": "SFX\\dialogue_monstre[4]_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "542320740",
+      "Name": "play_dialogue_5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\play_dialogue_5",
+      "GUID": "{6FDEBF14-D420-46EE-B416-6DBF47F7BC1F}",
+      "DurationType": "OneShot",
+      "DurationMin": "26.214293",
+      "DurationMax": "26.214293",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "199837169",
+        "Language": "SFX",
+        "ShortName": "dialogue_maison[5].wav",
+        "Path": "SFX\\dialogue_maison[5]_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "542320743",
+      "Name": "play_dialogue_6",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\play_dialogue_6",
+      "GUID": "{E33D740C-EAB7-4829-9A7C-FF595688FB5A}",
+      "DurationType": "OneShot",
+      "DurationMin": "32.523811",
+      "DurationMax": "32.523811",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "630421322",
+        "Language": "SFX",
+        "ShortName": "dialogue_chaudron_[6].wav",
+        "Path": "SFX\\dialogue_chaudron_[6]_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1946716263",
+      "Name": "play_foosteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\play_foosteps",
+      "GUID": "{EA6337E6-F059-4D58-A824-9B5670F170BD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.312625",
+      "DurationMax": "0.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "84011004",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_7.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_7_10C4C929.wem"
+       },
+       {
+        "Id": "277167222",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_4.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_4_10C4C929.wem"
+       },
+       {
+        "Id": "428725463",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_3.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_3_10C4C929.wem"
+       },
+       {
+        "Id": "471774028",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_6.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_6_10C4C929.wem"
+       },
+       {
+        "Id": "507467859",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_2.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_2_10C4C929.wem"
+       },
+       {
+        "Id": "633301012",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_1.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_1_10C4C929.wem"
+       },
+       {
+        "Id": "687388744",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_5.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_5_10C4C929.wem"
+       },
+       {
+        "Id": "791116324",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_8.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_8_10C4C929.wem"
+       },
+       {
+        "Id": "1065547555",
+        "Language": "SFX",
+        "ShortName": "PLAYER - player_footsteps_walking_9.wav",
+        "Path": "SFX\\PLAYER - player_footsteps_walking_9_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3854535947",
+      "Name": "play_mood_calm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mood\\play_mood_calm",
+      "GUID": "{279271C4-1189-4513-9E24-ABCC9628FD15}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "14735246",
+        "Language": "SFX",
+        "ShortName": "Calm V5 - Master.wav",
+        "Path": "SFX\\Calm V5 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "162801081",
+        "Language": "SFX",
+        "ShortName": "ambiances_calm_02.wav",
+        "Path": "SFX\\ambiances_calm_02_10C4C929.wem"
+       },
+       {
+        "Id": "167195183",
+        "Language": "SFX",
+        "ShortName": "ambiances_calm_04.wav",
+        "Path": "SFX\\ambiances_calm_04_10C4C929.wem"
+       },
+       {
+        "Id": "169608038",
+        "Language": "SFX",
+        "ShortName": "Calm V1 - Master.wav",
+        "Path": "SFX\\Calm V1 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "374337049",
+        "Language": "SFX",
+        "ShortName": "Calm V2 - Master.wav",
+        "Path": "SFX\\Calm V2 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "485695488",
+        "Language": "SFX",
+        "ShortName": "Calm V3 - Master.wav",
+        "Path": "SFX\\Calm V3 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "497123036",
+        "Language": "SFX",
+        "ShortName": "Calm V4 - Master.wav",
+        "Path": "SFX\\Calm V4 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "541579239",
+        "Language": "SFX",
+        "ShortName": "ambiances_calm_05.wav",
+        "Path": "SFX\\ambiances_calm_05_10C4C929.wem"
+       },
+       {
+        "Id": "740509298",
+        "Language": "SFX",
+        "ShortName": "ambiances_calm_01.wav",
+        "Path": "SFX\\ambiances_calm_01_10C4C929.wem"
+       },
+       {
+        "Id": "760249684",
+        "Language": "SFX",
+        "ShortName": "ambiances_calm_06.wav",
+        "Path": "SFX\\ambiances_calm_06_10C4C929.wem"
+       },
+       {
+        "Id": "788547700",
+        "Language": "SFX",
+        "ShortName": "ambiances_calm_03.wav",
+        "Path": "SFX\\ambiances_calm_03_10C4C929.wem"
+       },
+       {
+        "Id": "815772318",
+        "Language": "SFX",
+        "ShortName": "Calm V6 - Master.wav",
+        "Path": "SFX\\Calm V6 - Master_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "359186071",
+      "Name": "play_mood_joke",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mood\\play_mood_joke",
+      "GUID": "{5A2D71A5-412F-48DB-B7C2-40007A113E25}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "63813005",
+        "Language": "SFX",
+        "ShortName": "Joke V4 - Master.wav",
+        "Path": "SFX\\Joke V4 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "93341086",
+        "Language": "SFX",
+        "ShortName": "ambiances_joke_04.wav",
+        "Path": "SFX\\ambiances_joke_04_10C4C929.wem"
+       },
+       {
+        "Id": "111836298",
+        "Language": "SFX",
+        "ShortName": "Joke V1 - Master.wav",
+        "Path": "SFX\\Joke V1 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "297396238",
+        "Language": "SFX",
+        "ShortName": "ambiances_joke_05.wav",
+        "Path": "SFX\\ambiances_joke_05_10C4C929.wem"
+       },
+       {
+        "Id": "302663128",
+        "Language": "SFX",
+        "ShortName": "Joke V3 - Master.wav",
+        "Path": "SFX\\Joke V3 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "635026464",
+        "Language": "SFX",
+        "ShortName": "ambiances_joke_03.wav",
+        "Path": "SFX\\ambiances_joke_03_10C4C929.wem"
+       },
+       {
+        "Id": "741038497",
+        "Language": "SFX",
+        "ShortName": "ambiances_joke_02.wav",
+        "Path": "SFX\\ambiances_joke_02_10C4C929.wem"
+       },
+       {
+        "Id": "796850046",
+        "Language": "SFX",
+        "ShortName": "ambiances_joke_01.wav",
+        "Path": "SFX\\ambiances_joke_01_10C4C929.wem"
+       },
+       {
+        "Id": "852360730",
+        "Language": "SFX",
+        "ShortName": "Joke V2 - Master.wav",
+        "Path": "SFX\\Joke V2 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "948323164",
+        "Language": "SFX",
+        "ShortName": "ambiances_joke_06.wav",
+        "Path": "SFX\\ambiances_joke_06_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1146163984",
+      "Name": "play_mood_tension",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mood\\play_mood_tension",
+      "GUID": "{C2EC8184-226D-4460-A5D4-C6ECF14EDCC9}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "14108504",
+        "Language": "SFX",
+        "ShortName": "Tension V2 - Master.wav",
+        "Path": "SFX\\Tension V2 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "124132379",
+        "Language": "SFX",
+        "ShortName": "ambiances_tension_01.wav",
+        "Path": "SFX\\ambiances_tension_01_10C4C929.wem"
+       },
+       {
+        "Id": "315391686",
+        "Language": "SFX",
+        "ShortName": "ambiances_tension_05.wav",
+        "Path": "SFX\\ambiances_tension_05_10C4C929.wem"
+       },
+       {
+        "Id": "568237913",
+        "Language": "SFX",
+        "ShortName": "ambiances_tension_02.wav",
+        "Path": "SFX\\ambiances_tension_02_10C4C929.wem"
+       },
+       {
+        "Id": "661792803",
+        "Language": "SFX",
+        "ShortName": "ambiances_tension_06.wav",
+        "Path": "SFX\\ambiances_tension_06_10C4C929.wem"
+       },
+       {
+        "Id": "858050363",
+        "Language": "SFX",
+        "ShortName": "ambiances_tension_03.wav",
+        "Path": "SFX\\ambiances_tension_03_10C4C929.wem"
+       },
+       {
+        "Id": "992933645",
+        "Language": "SFX",
+        "ShortName": "Tension V1 - Master.wav",
+        "Path": "SFX\\Tension V1 - Master_D79FB2B7.wem"
+       },
+       {
+        "Id": "1028575788",
+        "Language": "SFX",
+        "ShortName": "ambiances_tension_04.wav",
+        "Path": "SFX\\ambiances_tension_04_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

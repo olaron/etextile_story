@@ -10,6 +10,8 @@ public class BlobDisplay : MonoBehaviour
     public BlobManager blobManager;
     public GameObject objectToSpawn;
     public float mapScale = 16;
+
+    private bool test = false;
     
     private GameObject[] objects = new GameObject[BlobManager.MAX_BLOBS];
     // Start is called before the first frame update
@@ -26,6 +28,11 @@ public class BlobDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!test)
+        {
+            test = true;
+            AkSoundEngine.PostEvent("play_mood_tension", gameObject);
+        }
         for (int i = 0; i < BlobManager.MAX_BLOBS; i++)
         {
             Blob blob = blobManager.GetBlob(i);
