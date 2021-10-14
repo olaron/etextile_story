@@ -36,7 +36,10 @@ public class PathMover : MonoBehaviour
     {
         PathStep step = other.gameObject.GetComponent<PathStep>();
         if (step)
+        {
             CurrentPathStep = step;
+            step.PlayerEnterZone();
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -45,6 +48,7 @@ public class PathMover : MonoBehaviour
         if (step)
         {
             CurrentPathStep = null;
+            step.PlayerExitZone();
         }
     }
 }

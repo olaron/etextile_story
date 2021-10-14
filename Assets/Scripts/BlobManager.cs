@@ -32,7 +32,7 @@ public class BlobManager : MonoBehaviour
     private const MidiChannel BLOB_W_CHANNEL = MidiChannel.Ch6;
     private const MidiChannel BLOB_H_CHANNEL = MidiChannel.Ch7;
 
-    private Blob[] blobs = new Blob[MAX_BLOBS];
+    public Blob[] blobs = new Blob[MAX_BLOBS];
     
     private static MidiChannel Channel(int i)
     {
