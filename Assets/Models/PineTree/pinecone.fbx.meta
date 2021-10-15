@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06be784cd0bd5ba4cb98b96c5ce3060f
+guid: f7ea671be0b704744b56920fc47fb081
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: c4291543b154b73488fc8d1bc5ffbd34, type: 2}
+      name: pinecone
+    second: {fileID: 2100000, guid: dd982aaad89d53140aae32c854f2c65b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
