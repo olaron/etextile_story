@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_DIALOGUE_4 = 542320741U;
         static const AkUniqueID PLAY_DIALOGUE_5 = 542320740U;
         static const AkUniqueID PLAY_DIALOGUE_6 = 542320743U;
+        static const AkUniqueID PLAY_DIALOGUE_INTRO = 1799756975U;
         static const AkUniqueID PLAY_FOOSTEPS = 1946716263U;
         static const AkUniqueID PLAY_MOOD_CALM = 3854535947U;
         static const AkUniqueID PLAY_MOOD_JOKE = 359186071U;
