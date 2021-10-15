@@ -338,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -371,6 +371,10 @@ PrefabInstance:
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: PathSpeed
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: chapterName
@@ -552,6 +556,10 @@ PrefabInstance:
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: PathSpeed
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: chapterName
@@ -787,6 +795,10 @@ PrefabInstance:
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: PathSpeed
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: chapterName
@@ -1078,6 +1090,10 @@ PrefabInstance:
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: PathSpeed
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: chapterName
@@ -1665,6 +1681,10 @@ PrefabInstance:
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: PathSpeed
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: chapterName
@@ -2751,6 +2771,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: PathSpeed
+      value: 0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: chapterName
       value: play_dialogue_1
       objectReference: {fileID: 0}
@@ -2799,6 +2823,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7067386331859838918, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: MaxSpeed
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7067386331859838919, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
       propertyPath: m_RootOrder
       value: 7
