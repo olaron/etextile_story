@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\rob\Desktop\code\Projet Forénui\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\rob\Desktop\code\Projet Forénui\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\rob\Desktop\code\etextile_story\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Projets Unity\etextile_story\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\rob\Desktop\code\Projet Forénui\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3796139060" GUID="{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}" Language="SFX" Hash="2130115880">
+		<SoundBank Id="3796139060" GUID="{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}" Language="SFX" Hash="3498911626">
 			<ObjectPath>\SoundBanks\Default Work Unit\Project</ObjectPath>
 			<ShortName>Project</ShortName>
 			<Path>Project.bnk</Path>
 			<IncludedEvents>
-				<Event Id="542320736" Name="play_dialogue_1" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_1" GUID="{549BCD67-3108-40C0-BE3B-D6EC78959D4C}" DurationType="OneShot" DurationMin="39.428562" DurationMax="39.428562">
+				<Event Id="542320736" Name="play_dialogue_1" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_1" GUID="{549BCD67-3108-40C0-BE3B-D6EC78959D4C}" DurationType="OneShot" DurationMin="24.590855" DurationMax="24.590855">
 					<IncludedMemoryFiles>
-						<File Id="514992432" Language="SFX">
-							<ShortName>dialogue_champignons[1].wav</ShortName>
-							<Path>SFX\dialogue_champignons[1]_10C4C929.wem</Path>
+						<File Id="635474101" Language="SFX">
+							<ShortName>dialogue_final_1.wav</ShortName>
+							<Path>SFX\dialogue_final_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="542320739" Name="play_dialogue_2" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_2" GUID="{3756A5D8-3F32-4617-BB0C-852B7B134911}" DurationType="OneShot" DurationMin="33.357147" DurationMax="33.357147">
+				<Event Id="542320739" Name="play_dialogue_2" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_2" GUID="{3756A5D8-3F32-4617-BB0C-852B7B134911}" DurationType="OneShot" DurationMin="37.688625" DurationMax="37.688625">
 					<IncludedMemoryFiles>
-						<File Id="364968837" Language="SFX">
-							<ShortName>dialogue_dinosaure[2].wav</ShortName>
-							<Path>SFX\dialogue_dinosaure[2]_10C4C929.wem</Path>
+						<File Id="1067639856" Language="SFX">
+							<ShortName>dialogue_final_2.wav</ShortName>
+							<Path>SFX\dialogue_final_2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="542320738" Name="play_dialogue_3" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_3" GUID="{85C91CD6-C26E-4672-8C12-B0A36CBFA6A1}" DurationType="OneShot" DurationMin="23.595230" DurationMax="23.595230">
 					<IncludedMemoryFiles>
-						<File Id="813503510" Language="SFX">
-							<ShortName>dialogue_panneaudedirection[3].wav</ShortName>
-							<Path>SFX\dialogue_panneaudedirection[3]_10C4C929.wem</Path>
+						<File Id="595684071" Language="SFX">
+							<ShortName>dialogue_final_3.wav</ShortName>
+							<Path>SFX\dialogue_final_3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="542320741" Name="play_dialogue_4" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_4" GUID="{A0852A15-1202-45D8-AD86-144795847D35}" DurationType="OneShot" DurationMin="32.404770" DurationMax="32.404770">
+				<Event Id="542320741" Name="play_dialogue_4" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_4" GUID="{A0852A15-1202-45D8-AD86-144795847D35}" DurationType="OneShot" DurationMin="33.459457" DurationMax="33.459457">
 					<IncludedMemoryFiles>
-						<File Id="435138732" Language="SFX">
-							<ShortName>dialogue_monstre[4].wav</ShortName>
-							<Path>SFX\dialogue_monstre[4]_10C4C929.wem</Path>
+						<File Id="185627346" Language="SFX">
+							<ShortName>dialogue_final_4.wav</ShortName>
+							<Path>SFX\dialogue_final_4_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="542320740" Name="play_dialogue_5" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_5" GUID="{6FDEBF14-D420-46EE-B416-6DBF47F7BC1F}" DurationType="OneShot" DurationMin="26.214293" DurationMax="26.214293">
 					<IncludedMemoryFiles>
-						<File Id="199837169" Language="SFX">
-							<ShortName>dialogue_maison[5].wav</ShortName>
-							<Path>SFX\dialogue_maison[5]_10C4C929.wem</Path>
+						<File Id="679487226" Language="SFX">
+							<ShortName>dialogue_final_5.wav</ShortName>
+							<Path>SFX\dialogue_final_5_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="542320743" Name="play_dialogue_6" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_6" GUID="{E33D740C-EAB7-4829-9A7C-FF595688FB5A}" DurationType="OneShot" DurationMin="32.523811" DurationMax="32.523811">
+				<Event Id="542320743" Name="play_dialogue_6" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_6" GUID="{E33D740C-EAB7-4829-9A7C-FF595688FB5A}" DurationType="OneShot" DurationMin="48.186832" DurationMax="48.186832">
 					<IncludedMemoryFiles>
-						<File Id="630421322" Language="SFX">
-							<ShortName>dialogue_chaudron_[6].wav</ShortName>
-							<Path>SFX\dialogue_chaudron_[6]_10C4C929.wem</Path>
+						<File Id="604433066" Language="SFX">
+							<ShortName>dialogue_final_6.wav</ShortName>
+							<Path>SFX\dialogue_final_6_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1799756975" Name="play_dialogue_intro" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_intro" GUID="{AA9F20A0-80D5-4637-91C4-2A320846036A}" DurationType="OneShot" DurationMin="15.198209" DurationMax="15.198209">
+					<IncludedMemoryFiles>
+						<File Id="72334097" Language="SFX">
+							<ShortName>dialogue_final_intro.wav</ShortName>
+							<Path>SFX\dialogue_final_intro_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

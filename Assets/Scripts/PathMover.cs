@@ -20,7 +20,8 @@ public class PathMover : MonoBehaviour
 
     private void Start()
     {
-        AkSoundEngine.PostEvent("play_dialogue_1", gameObject);
+        AkSoundEngine.PostEvent("play_dialogue_intro", gameObject);
+        AkSoundEngine.PostEvent("play_mood_calm", gameObject);
     }
 
     void Update()
