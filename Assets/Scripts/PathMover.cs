@@ -15,8 +15,13 @@ public class PathMover : MonoBehaviour
 
     void Awake()
     {
-        AkSoundEngine.PostEvent("play_dialogue_1", gameObject);
+        
         PathFollower = GetComponent<PathFollower>();
+    }
+
+    private void Start()
+    {
+        AkSoundEngine.PostEvent("play_dialogue_1", gameObject);
     }
 
     void Update()
