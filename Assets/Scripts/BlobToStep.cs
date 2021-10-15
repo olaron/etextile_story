@@ -23,7 +23,7 @@ public class BlobToStep : MonoBehaviour
                if (!b.active)
                    continue;
                
-               Vector3 bPos = new Vector3(BlobCoordToWorld(b.x), TrackHeight, BlobCoordToWorld(b.y));
+               Vector3 bPos = new Vector3(BlobCoordToWorld(b.x), TrackHeight, -BlobCoordToWorld(b.y));
                foreach (PathStep pathStep in PathSteps)
                {
                    float dist = Vector3.Distance(bPos, pathStep.transform.position);
