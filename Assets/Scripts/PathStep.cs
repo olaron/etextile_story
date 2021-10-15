@@ -41,6 +41,7 @@ public class PathStep : MonoBehaviour
     public void PlayerExitZone()
     {
         Debug.Log("Play audio : " + chapterName);
+        AkSoundEngine.PostEvent(chapterName, gameObject);
     }
 
     public void StatusInRange()
