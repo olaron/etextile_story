@@ -7,7 +7,8 @@ public class PathStep : MonoBehaviour
  
     private float _lastTimeStatusInRange = float.MinValue;
     public float _statusDelayBeforeDisapear = 1f; // time without any variation to switch state
-    
+
+    public float PathSpeed = 3f;
     public string chapterName;
     public GameObject Representation;
     private bool _isOpen = false;
@@ -33,15 +34,16 @@ public class PathStep : MonoBehaviour
             isOpen = false;
     }
 
-    public void PlayerEnterZone()
+    public void PlayerEnterZone(PathMover mover)
     {
         // ?
     }
 
-    public void PlayerExitZone()
+    public void PlayerExitZone(PathMover mover)
     {
         Debug.Log("Play audio : " + chapterName);
         AkSoundEngine.PostEvent(chapterName, gameObject);
+        mover.MaxSpeed = PathSpeed;
     }
 
     public void StatusInRange()

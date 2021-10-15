@@ -15,7 +15,6 @@ public class PathMover : MonoBehaviour
 
     void Awake()
     {
-        
         PathFollower = GetComponent<PathFollower>();
     }
 
@@ -44,7 +43,7 @@ public class PathMover : MonoBehaviour
         if (step)
         {
             CurrentPathStep = step;
-            step.PlayerEnterZone();
+            step.PlayerEnterZone(this);
         }
     }
 
@@ -54,7 +53,7 @@ public class PathMover : MonoBehaviour
         if (step)
         {
             CurrentPathStep = null;
-            step.PlayerExitZone();
+            step.PlayerExitZone(this);
         }
     }
 }
