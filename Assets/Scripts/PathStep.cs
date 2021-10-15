@@ -55,12 +55,12 @@ public class PathStep : MonoBehaviour
 
     public void PlayerEnterZone(PathMover mover)
     {
-        // ?
+        Debug.Log("Enter " + chapterName + " : " + Time.time);
     }
 
     public void PlayerExitZone(PathMover mover)
     {
-        Debug.Log("Play audio : " + chapterName);
+        Debug.Log("Exit " + chapterName + " : " + Time.time);
         AkSoundEngine.PostEvent(chapterName, gameObject);
         mover.MaxSpeed = PathSpeed;
         _dialogueTriggerTime = Time.time;
