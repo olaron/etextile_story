@@ -26,6 +26,7 @@ public class PathMover : MonoBehaviour
 
     void Update()
     {
+        UpdateFootStep();
         if (CurrentPathStep)
         {
             float currentSpeed = CurrentPathStep.isOpen ? MaxSpeed : 0f;
@@ -55,6 +56,21 @@ public class PathMover : MonoBehaviour
         {
             CurrentPathStep = null;
             step.PlayerExitZone(this);
+        }
+    }
+
+
+    private float _nextFootStep = float.MinValue;
+    public float footStepDT = 0.3f;
+    private void UpdateFootStep()
+    {
+        if (PathFollower.speed > 0.01f)
+        {
+            if (Time.time > _nextFootStep)
+            {
+                // play the footstep
+                _nextFootStep = Time.time + footStepDT;
+            }
         }
     }
 }
