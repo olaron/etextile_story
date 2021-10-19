@@ -68,7 +68,7 @@ public class PathMover : MonoBehaviour
         {
             if (Time.time > _nextFootStep)
             {
-                // play the footstep
+                AkSoundEngine.PostEvent("play_foosteps", gameObject);
                 _nextFootStep = Time.time + footStepDT;
             }
         }

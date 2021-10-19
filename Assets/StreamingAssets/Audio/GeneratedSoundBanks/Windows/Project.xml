@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3796139060" GUID="{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}" Language="SFX" Hash="2802858549">
+		<SoundBank Id="3796139060" GUID="{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}" Language="SFX" Hash="3107737473">
 			<ObjectPath>\SoundBanks\Default Work Unit\Project</ObjectPath>
 			<ShortName>Project</ShortName>
 			<Path>Project.bnk</Path>

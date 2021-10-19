@@ -46,7 +46,9 @@ public class PathStep : MonoBehaviour
         {
             if (Time.time - _dialogueTriggerTime > MoodsTimes[_nextMood])
             {
+                AkSoundEngine.PostEvent("stop_allmood", gameObject);
                 AkSoundEngine.PostEvent(Moods[_nextMood], gameObject);
+                Debug.Log("Play mood " + Moods[_nextMood]);
                 _nextMood += 1;
             }
         }
@@ -61,6 +63,7 @@ public class PathStep : MonoBehaviour
     public void PlayerExitZone(PathMover mover)
     {
         Debug.Log("Exit " + chapterName + " : " + Time.time);
+        Debug.Log("Play dialogue " + chapterName);
         AkSoundEngine.PostEvent(chapterName, gameObject);
         mover.MaxSpeed = PathSpeed;
         _dialogueTriggerTime = Time.time;
