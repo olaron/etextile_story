@@ -381,6 +381,14 @@ PrefabInstance:
       value: play_dialogue_5
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: activationKey
+      value: 286
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Representation
       value: 
       objectReference: {fileID: 506005660}
@@ -566,6 +574,14 @@ PrefabInstance:
       value: play_dialogue_2
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: activationKey
+      value: 283
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Representation
       value: 
       objectReference: {fileID: 2082401694}
@@ -575,11 +591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[0]
-      value: play_mood_joke
+      value: set_mood_joke
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[1]
-      value: play_mood_calm
+      value: set_mood_calm
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: MoodsTimes.Array.size
@@ -805,6 +821,14 @@ PrefabInstance:
       value: play_dialogue_6
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: activationKey
+      value: 287
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Representation
       value: 
       objectReference: {fileID: 229490347}
@@ -814,11 +838,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[0]
-      value: play_mood_joke
+      value: set_mood_joke
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[1]
-      value: play_mood_calm
+      value: set_mood_calm
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: MoodsTimes.Array.size
@@ -1053,7 +1077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -9.966
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430489, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1100,6 +1124,14 @@ PrefabInstance:
       value: play_dialogue_3
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: activationKey
+      value: 284
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Representation
       value: 
       objectReference: {fileID: 1629200711}
@@ -1109,15 +1141,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[0]
-      value: play_mood_tension
+      value: set_mood_tension
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[1]
-      value: play_mood_joke
+      value: set_mood_joke
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[2]
-      value: play_mood_tension
+      value: set_mood_tension
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: MoodsTimes.Array.size
@@ -1579,6 +1611,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3465644353112708386, guid: 0dc95069d0662504f92ccdf6ac11b692, type: 3}
   m_PrefabInstance: {fileID: 1099151944}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1145165823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7067386333338362947, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+  m_PrefabInstance: {fileID: 7067386332022297103}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1164621478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,6 +1740,14 @@ PrefabInstance:
       value: play_dialogue_4
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: activationKey
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Representation
       value: 
       objectReference: {fileID: 368020084}
@@ -1712,11 +1757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[0]
-      value: play_mood_joke
+      value: set_mood_joke
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[1]
-      value: play_mood_calm
+      value: set_mood_calm
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: MoodsTimes.Array.size
@@ -2633,7 +2678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020655735675740544, guid: 35f1818353232ff41a543cf52ebd9fdd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5819998
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 9020655735675740544, guid: 35f1818353232ff41a543cf52ebd9fdd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2641,7 +2686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020655735675740544, guid: 35f1818353232ff41a543cf52ebd9fdd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.201
+      value: -1.11
       objectReference: {fileID: 0}
     - target: {fileID: 9020655735675740544, guid: 35f1818353232ff41a543cf52ebd9fdd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2803,6 +2848,14 @@ PrefabInstance:
       value: play_dialogue_1
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
+      propertyPath: activationKey
+      value: 282
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Representation
       value: 
       objectReference: {fileID: 447092178}
@@ -2812,7 +2865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: Moods.Array.data[0]
-      value: play_mood_tension
+      value: set_mood_tension
       objectReference: {fileID: 0}
     - target: {fileID: 4831091386229430490, guid: efd446a6d9e7fe048843db719caff0d6, type: 3}
       propertyPath: MoodsTimes.Array.size
@@ -2847,6 +2900,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2799289408908511716, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799289408908511716, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: isDefaultListener
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7067386331859838918, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
       propertyPath: MaxSpeed
       value: 0.8
@@ -2855,6 +2916,10 @@ PrefabInstance:
       propertyPath: footStepDT
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 7067386331859838918, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: soundEmitter
+      value: 
+      objectReference: {fileID: 1145165823}
     - target: {fileID: 7067386331859838919, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2906,6 +2971,22 @@ PrefabInstance:
     - target: {fileID: 7067386331859838921, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
       propertyPath: m_Name
       value: PathFollower
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067386333338362945, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076231974591192929, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: m_listeners.useDefaultListeners
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076231974591192929, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: m_listeners.initialListenerList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076231974591192929, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
+      propertyPath: m_listeners.initialListenerList.Array.data[0]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c6e6fbebb27e4744aa07ad878ae9620, type: 3}
@@ -3057,7 +3138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262242512391732452, guid: 9df36362155913a418aa2de6ce0cf3e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5666
+      value: -3.912
       objectReference: {fileID: 0}
     - target: {fileID: 4262242512391732452, guid: 9df36362155913a418aa2de6ce0cf3e3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3065,7 +3146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262242512391732452, guid: 9df36362155913a418aa2de6ce0cf3e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.66346
+      value: -1.396
       objectReference: {fileID: 0}
     - target: {fileID: 4262242512391732452, guid: 9df36362155913a418aa2de6ce0cf3e3, type: 3}
       propertyPath: m_LocalRotation.w

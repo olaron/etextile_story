@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Projets Unity\etextile_story\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\rob\Desktop\code\Projet Forénui\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rob\Desktop\code\Projet Forénui\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rob\Desktop\code\etextile_story\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Gabriel\Documents\WwiseProjects\Projet Forénui\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\rob\Desktop\code\Projet Forénui\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,11 +16,135 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3796139060" GUID="{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}" Language="SFX" Hash="3107737473">
+		<SoundBank Id="3796139060" GUID="{B61AA999-4AC5-419B-B9F0-FDB9AFC60628}" Language="SFX" Hash="1050959039">
 			<ObjectPath>\SoundBanks\Default Work Unit\Project</ObjectPath>
 			<ShortName>Project</ShortName>
 			<Path>Project.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1872217853" Name="play_allmoods" ObjectPath="\Events\Default Work Unit\Mood\play_allmoods" GUID="{26DDDD31-BC0D-48D5-AF90-896CED2F8482}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="14108504" Language="SFX">
+							<ShortName>Tension V2 - Master.wav</ShortName>
+							<Path>SFX\Tension V2 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="14735246" Language="SFX">
+							<ShortName>Calm V5 - Master.wav</ShortName>
+							<Path>SFX\Calm V5 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="63813005" Language="SFX">
+							<ShortName>Joke V4 - Master.wav</ShortName>
+							<Path>SFX\Joke V4 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="93341086" Language="SFX">
+							<ShortName>ambiances_joke_04.wav</ShortName>
+							<Path>SFX\ambiances_joke_04_10C4C929.wem</Path>
+						</File>
+						<File Id="111836298" Language="SFX">
+							<ShortName>Joke V1 - Master.wav</ShortName>
+							<Path>SFX\Joke V1 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="124132379" Language="SFX">
+							<ShortName>ambiances_tension_01.wav</ShortName>
+							<Path>SFX\ambiances_tension_01_10C4C929.wem</Path>
+						</File>
+						<File Id="162801081" Language="SFX">
+							<ShortName>ambiances_calm_02.wav</ShortName>
+							<Path>SFX\ambiances_calm_02_10C4C929.wem</Path>
+						</File>
+						<File Id="167195183" Language="SFX">
+							<ShortName>ambiances_calm_04.wav</ShortName>
+							<Path>SFX\ambiances_calm_04_10C4C929.wem</Path>
+						</File>
+						<File Id="169608038" Language="SFX">
+							<ShortName>Calm V1 - Master.wav</ShortName>
+							<Path>SFX\Calm V1 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="297396238" Language="SFX">
+							<ShortName>ambiances_joke_05.wav</ShortName>
+							<Path>SFX\ambiances_joke_05_10C4C929.wem</Path>
+						</File>
+						<File Id="302663128" Language="SFX">
+							<ShortName>Joke V3 - Master.wav</ShortName>
+							<Path>SFX\Joke V3 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="315391686" Language="SFX">
+							<ShortName>ambiances_tension_05.wav</ShortName>
+							<Path>SFX\ambiances_tension_05_10C4C929.wem</Path>
+						</File>
+						<File Id="374337049" Language="SFX">
+							<ShortName>Calm V2 - Master.wav</ShortName>
+							<Path>SFX\Calm V2 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="485695488" Language="SFX">
+							<ShortName>Calm V3 - Master.wav</ShortName>
+							<Path>SFX\Calm V3 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="497123036" Language="SFX">
+							<ShortName>Calm V4 - Master.wav</ShortName>
+							<Path>SFX\Calm V4 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="541579239" Language="SFX">
+							<ShortName>ambiances_calm_05.wav</ShortName>
+							<Path>SFX\ambiances_calm_05_10C4C929.wem</Path>
+						</File>
+						<File Id="568237913" Language="SFX">
+							<ShortName>ambiances_tension_02.wav</ShortName>
+							<Path>SFX\ambiances_tension_02_10C4C929.wem</Path>
+						</File>
+						<File Id="635026464" Language="SFX">
+							<ShortName>ambiances_joke_03.wav</ShortName>
+							<Path>SFX\ambiances_joke_03_10C4C929.wem</Path>
+						</File>
+						<File Id="661792803" Language="SFX">
+							<ShortName>ambiances_tension_06.wav</ShortName>
+							<Path>SFX\ambiances_tension_06_10C4C929.wem</Path>
+						</File>
+						<File Id="740509298" Language="SFX">
+							<ShortName>ambiances_calm_01.wav</ShortName>
+							<Path>SFX\ambiances_calm_01_10C4C929.wem</Path>
+						</File>
+						<File Id="741038497" Language="SFX">
+							<ShortName>ambiances_joke_02.wav</ShortName>
+							<Path>SFX\ambiances_joke_02_10C4C929.wem</Path>
+						</File>
+						<File Id="760249684" Language="SFX">
+							<ShortName>ambiances_calm_06.wav</ShortName>
+							<Path>SFX\ambiances_calm_06_10C4C929.wem</Path>
+						</File>
+						<File Id="788547700" Language="SFX">
+							<ShortName>ambiances_calm_03.wav</ShortName>
+							<Path>SFX\ambiances_calm_03_10C4C929.wem</Path>
+						</File>
+						<File Id="796850046" Language="SFX">
+							<ShortName>ambiances_joke_01.wav</ShortName>
+							<Path>SFX\ambiances_joke_01_10C4C929.wem</Path>
+						</File>
+						<File Id="815772318" Language="SFX">
+							<ShortName>Calm V6 - Master.wav</ShortName>
+							<Path>SFX\Calm V6 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="852360730" Language="SFX">
+							<ShortName>Joke V2 - Master.wav</ShortName>
+							<Path>SFX\Joke V2 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="858050363" Language="SFX">
+							<ShortName>ambiances_tension_03.wav</ShortName>
+							<Path>SFX\ambiances_tension_03_10C4C929.wem</Path>
+						</File>
+						<File Id="948323164" Language="SFX">
+							<ShortName>ambiances_joke_06.wav</ShortName>
+							<Path>SFX\ambiances_joke_06_10C4C929.wem</Path>
+						</File>
+						<File Id="992933645" Language="SFX">
+							<ShortName>Tension V1 - Master.wav</ShortName>
+							<Path>SFX\Tension V1 - Master_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1028575788" Language="SFX">
+							<ShortName>ambiances_tension_04.wav</ShortName>
+							<Path>SFX\ambiances_tension_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="542320736" Name="play_dialogue_1" ObjectPath="\Events\Default Work Unit\Dialogues\play_dialogue_1" GUID="{549BCD67-3108-40C0-BE3B-D6EC78959D4C}" DurationType="OneShot" DurationMin="24.590855" DurationMax="24.590855">
 					<IncludedMemoryFiles>
 						<File Id="635474101" Language="SFX">
@@ -117,138 +241,10 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3854535947" Name="play_mood_calm" ObjectPath="\Events\Default Work Unit\Mood\play_mood_calm" GUID="{279271C4-1189-4513-9E24-ABCC9628FD15}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="14735246" Language="SFX">
-							<ShortName>Calm V5 - Master.wav</ShortName>
-							<Path>SFX\Calm V5 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="162801081" Language="SFX">
-							<ShortName>ambiances_calm_02.wav</ShortName>
-							<Path>SFX\ambiances_calm_02_10C4C929.wem</Path>
-						</File>
-						<File Id="167195183" Language="SFX">
-							<ShortName>ambiances_calm_04.wav</ShortName>
-							<Path>SFX\ambiances_calm_04_10C4C929.wem</Path>
-						</File>
-						<File Id="169608038" Language="SFX">
-							<ShortName>Calm V1 - Master.wav</ShortName>
-							<Path>SFX\Calm V1 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="374337049" Language="SFX">
-							<ShortName>Calm V2 - Master.wav</ShortName>
-							<Path>SFX\Calm V2 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="485695488" Language="SFX">
-							<ShortName>Calm V3 - Master.wav</ShortName>
-							<Path>SFX\Calm V3 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="497123036" Language="SFX">
-							<ShortName>Calm V4 - Master.wav</ShortName>
-							<Path>SFX\Calm V4 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="541579239" Language="SFX">
-							<ShortName>ambiances_calm_05.wav</ShortName>
-							<Path>SFX\ambiances_calm_05_10C4C929.wem</Path>
-						</File>
-						<File Id="740509298" Language="SFX">
-							<ShortName>ambiances_calm_01.wav</ShortName>
-							<Path>SFX\ambiances_calm_01_10C4C929.wem</Path>
-						</File>
-						<File Id="760249684" Language="SFX">
-							<ShortName>ambiances_calm_06.wav</ShortName>
-							<Path>SFX\ambiances_calm_06_10C4C929.wem</Path>
-						</File>
-						<File Id="788547700" Language="SFX">
-							<ShortName>ambiances_calm_03.wav</ShortName>
-							<Path>SFX\ambiances_calm_03_10C4C929.wem</Path>
-						</File>
-						<File Id="815772318" Language="SFX">
-							<ShortName>Calm V6 - Master.wav</ShortName>
-							<Path>SFX\Calm V6 - Master_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="359186071" Name="play_mood_joke" ObjectPath="\Events\Default Work Unit\Mood\play_mood_joke" GUID="{5A2D71A5-412F-48DB-B7C2-40007A113E25}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="63813005" Language="SFX">
-							<ShortName>Joke V4 - Master.wav</ShortName>
-							<Path>SFX\Joke V4 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="93341086" Language="SFX">
-							<ShortName>ambiances_joke_04.wav</ShortName>
-							<Path>SFX\ambiances_joke_04_10C4C929.wem</Path>
-						</File>
-						<File Id="111836298" Language="SFX">
-							<ShortName>Joke V1 - Master.wav</ShortName>
-							<Path>SFX\Joke V1 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="297396238" Language="SFX">
-							<ShortName>ambiances_joke_05.wav</ShortName>
-							<Path>SFX\ambiances_joke_05_10C4C929.wem</Path>
-						</File>
-						<File Id="302663128" Language="SFX">
-							<ShortName>Joke V3 - Master.wav</ShortName>
-							<Path>SFX\Joke V3 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="635026464" Language="SFX">
-							<ShortName>ambiances_joke_03.wav</ShortName>
-							<Path>SFX\ambiances_joke_03_10C4C929.wem</Path>
-						</File>
-						<File Id="741038497" Language="SFX">
-							<ShortName>ambiances_joke_02.wav</ShortName>
-							<Path>SFX\ambiances_joke_02_10C4C929.wem</Path>
-						</File>
-						<File Id="796850046" Language="SFX">
-							<ShortName>ambiances_joke_01.wav</ShortName>
-							<Path>SFX\ambiances_joke_01_10C4C929.wem</Path>
-						</File>
-						<File Id="852360730" Language="SFX">
-							<ShortName>Joke V2 - Master.wav</ShortName>
-							<Path>SFX\Joke V2 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="948323164" Language="SFX">
-							<ShortName>ambiances_joke_06.wav</ShortName>
-							<Path>SFX\ambiances_joke_06_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1146163984" Name="play_mood_tension" ObjectPath="\Events\Default Work Unit\Mood\play_mood_tension" GUID="{C2EC8184-226D-4460-A5D4-C6ECF14EDCC9}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="14108504" Language="SFX">
-							<ShortName>Tension V2 - Master.wav</ShortName>
-							<Path>SFX\Tension V2 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="124132379" Language="SFX">
-							<ShortName>ambiances_tension_01.wav</ShortName>
-							<Path>SFX\ambiances_tension_01_10C4C929.wem</Path>
-						</File>
-						<File Id="315391686" Language="SFX">
-							<ShortName>ambiances_tension_05.wav</ShortName>
-							<Path>SFX\ambiances_tension_05_10C4C929.wem</Path>
-						</File>
-						<File Id="568237913" Language="SFX">
-							<ShortName>ambiances_tension_02.wav</ShortName>
-							<Path>SFX\ambiances_tension_02_10C4C929.wem</Path>
-						</File>
-						<File Id="661792803" Language="SFX">
-							<ShortName>ambiances_tension_06.wav</ShortName>
-							<Path>SFX\ambiances_tension_06_10C4C929.wem</Path>
-						</File>
-						<File Id="858050363" Language="SFX">
-							<ShortName>ambiances_tension_03.wav</ShortName>
-							<Path>SFX\ambiances_tension_03_10C4C929.wem</Path>
-						</File>
-						<File Id="992933645" Language="SFX">
-							<ShortName>Tension V1 - Master.wav</ShortName>
-							<Path>SFX\Tension V1 - Master_D79FB2B7.wem</Path>
-						</File>
-						<File Id="1028575788" Language="SFX">
-							<ShortName>ambiances_tension_04.wav</ShortName>
-							<Path>SFX\ambiances_tension_04_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="2116433763" Name="set_mood_calm" ObjectPath="\Events\Default Work Unit\Mood\set_mood_calm" GUID="{279271C4-1189-4513-9E24-ABCC9628FD15}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2071197663" Name="set_mood_joke" ObjectPath="\Events\Default Work Unit\Mood\set_mood_joke" GUID="{5A2D71A5-412F-48DB-B7C2-40007A113E25}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3627982200" Name="set_mood_tension" ObjectPath="\Events\Default Work Unit\Mood\set_mood_tension" GUID="{C2EC8184-226D-4460-A5D4-C6ECF14EDCC9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2551583783" Name="stop_allmoods" ObjectPath="\Events\Default Work Unit\Mood\stop_allmoods" GUID="{E89D91CB-F1CF-42BB-9A4A-E60C38FBF891}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

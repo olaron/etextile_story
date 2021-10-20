@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ALLMOODS = 1872217853U;
         static const AkUniqueID PLAY_DIALOGUE_1 = 542320736U;
         static const AkUniqueID PLAY_DIALOGUE_2 = 542320739U;
         static const AkUniqueID PLAY_DIALOGUE_3 = 542320738U;
@@ -21,9 +22,10 @@ namespace AK
         static const AkUniqueID PLAY_DIALOGUE_6 = 542320743U;
         static const AkUniqueID PLAY_DIALOGUE_INTRO = 1799756975U;
         static const AkUniqueID PLAY_FOOSTEPS = 1946716263U;
-        static const AkUniqueID PLAY_MOOD_CALM = 3854535947U;
-        static const AkUniqueID PLAY_MOOD_JOKE = 359186071U;
-        static const AkUniqueID PLAY_MOOD_TENSION = 1146163984U;
+        static const AkUniqueID SET_MOOD_CALM = 2116433763U;
+        static const AkUniqueID SET_MOOD_JOKE = 2071197663U;
+        static const AkUniqueID SET_MOOD_TENSION = 3627982200U;
+        static const AkUniqueID STOP_ALLMOODS = 2551583783U;
     } // namespace EVENTS
 
     namespace BANKS

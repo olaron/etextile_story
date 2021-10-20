@@ -32,6 +32,7 @@ public class BlobDisplay : MonoBehaviour
         {
             test = true;
             AkSoundEngine.PostEvent("play_mood_tension", gameObject);
+            print("debug blob scene");
         }
         for (int i = 0; i < BlobManager.MAX_BLOBS; i++)
         {

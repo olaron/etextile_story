@@ -13,6 +13,8 @@ public class PathMover : MonoBehaviour
     private PathFollower PathFollower;
     private PathStep CurrentPathStep;
 
+    public GameObject soundEmitter;
+    
     void Awake()
     {
         PathFollower = GetComponent<PathFollower>();
@@ -21,7 +23,9 @@ public class PathMover : MonoBehaviour
     private void Start()
     {
         AkSoundEngine.PostEvent("play_dialogue_intro", gameObject);
-        AkSoundEngine.PostEvent("play_mood_calm", gameObject);
+        AkSoundEngine.PostEvent("play_allmoods", gameObject);
+        AkSoundEngine.PostEvent("set_mood_calm", gameObject);
+        
     }
 
     void Update()

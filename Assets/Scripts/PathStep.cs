@@ -21,6 +21,9 @@ public class PathStep : MonoBehaviour
     public List<String> Moods;
 
     private int _nextMood = 0;
+
+    public KeyCode activationKey;
+    public GameObject soundEmitter;
     
     public bool isOpen
     {
@@ -46,13 +49,18 @@ public class PathStep : MonoBehaviour
         {
             if (Time.time - _dialogueTriggerTime > MoodsTimes[_nextMood])
             {
-                AkSoundEngine.PostEvent("stop_allmood", gameObject);
+                Debug.Log("stop all moods");
+                //AkSoundEngine.PostEvent("stop_allmood", soundEmitter);
                 AkSoundEngine.PostEvent(Moods[_nextMood], gameObject);
                 Debug.Log("Play mood " + Moods[_nextMood]);
                 _nextMood += 1;
             }
         }
         
+        if (Input.GetKey(activationKey))
+        {
+            isOpen = true;
+        }
     }
 
     public void PlayerEnterZone(PathMover mover)
